@@ -11,5 +11,9 @@ export function Calculator() {
     return num1 / num2;
   };
 
-  return { add, subtract };
+  const multiply = (num1, num2) => {
+    return num1 * num2;
+  };
+
+  return { add, subtract, divide, multiply };
 }
